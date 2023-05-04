@@ -4,7 +4,10 @@
   "description": "building the elipso website psd to html",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass",
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css"
   },
   "repository": {
     "type": "git",
@@ -22,6 +25,12 @@
   },
   "homepage": "https://github.com/devfalhassan/elipso#readme",
   "dependencies": {
-    "sass": "^1.62.1"
+    "autoprefixer": "^10.4.14",
+    "concat": "^1.0.3",
+    "i": "^0.3.7",
+    "node-sass": "^8.0.0",
+    "npm": "^9.6.6",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^10.1.0"
   }
 }
