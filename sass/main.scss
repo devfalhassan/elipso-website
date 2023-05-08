@@ -1,2 +1,10 @@
-@import 'base/base.scss';
 @import 'abstracts/variables';
+
+@import 'base/base.scss';
+@import 'base/typography.scss';
+@import 'base/utilities';
+
+@import 'components/button.scss';
+@import 'components/nav.scss';
+
+@import 'layout/header';

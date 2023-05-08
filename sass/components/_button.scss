@@ -1,0 +1,31 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10rem;
+    color: $color-white;
+    font-size: 1.4rem;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  &--purple {
+    background: linear-gradient(
+      87deg,
+      rgba(63, 81, 181, 1) 0%,
+      rgba(140, 58, 183, 1) 100%
+    );
+  }
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  &:active {
+    outline: none;
+    transform: scale(1.05) translateY(3px);
+  }
+}
