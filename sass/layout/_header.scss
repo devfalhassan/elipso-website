@@ -2,10 +2,10 @@
   height: 100vh;
   background: linear-gradient(
       to right,
-      rgba($color-primary, 0.7),
-      rgba($color-primary, 0.7)
+      rgba($color-primary, 0.8),
+      rgba($color-primary, 0.8)
     ),
-    url(/img/bgimg.jpg);
+    url(/img/bgimg.jfif);
   background-size: cover;
   background-position: bottom;
   position: relative;
@@ -13,7 +13,6 @@
   &__text-box {
     position: absolute;
     top: 50%;
-
     transform: translate(0, -50%);
   }
 }
