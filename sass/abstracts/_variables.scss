@@ -4,7 +4,17 @@ $color-secondary: #8c3ab7;
 
 $color-tartiary: #e06469;
 $color-tartiary-2: #fc4f00;
+
 $color-white: #f2f2f2;
-$color-grey: #777;
+$color-white-dark: #d2d2d2;
+
+$color-grey: #888;
+$color-grey-dark: #6d6d6d;
+
+$gradient: linear-gradient(
+  to right,
+  rgba($color-primary, 0.8),
+  rgba($color-secondary, 0.8)
+);
 
 $default-font-size: 1.6rem;

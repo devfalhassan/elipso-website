@@ -55,26 +55,37 @@ body {
   display: inline-block;
   border-radius: 10rem;
   color: #f2f2f2;
-  font-size: 1.4rem;
-  padding: 1rem 4rem;
+  font-size: 1.6rem;
+  padding: 1.4rem 2rem;
   cursor: pointer;
   transition: all 0.2s ease; }
 
 .btn--purple {
   background: linear-gradient(87deg, #3f51b5 0%, #8c3ab7 100%); }
 
-.btn:hover {
-  transform: scale(1.05); }
-
 .btn:active {
   outline: none;
   transform: scale(1.05) translateY(3px); }
 
 .nav {
-  padding: 2rem 0;
+  padding: 1.8rem 0;
   background-color: white;
   position: relative;
   top: 3rem; }
+  .nav__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.2rem; }
+  .nav__text {
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #8c3ab7; }
+  .nav__icon {
+    font-size: 3.5rem;
+    display: flex;
+    color: #8c3ab7; }
   .nav__container {
     display: flex;
     justify-content: space-between;
@@ -86,16 +97,45 @@ body {
   .nav__link:link, .nav__link:visited {
     text-decoration: none;
     display: inline-block;
-    color: #777;
-    font-size: 1.6rem;
+    color: #888;
+    font-size: 1.4rem;
+    border-bottom: 2px solid transparent;
     transition: all 0.2s;
-    background-color: orangered; }
+    position: relative; }
   .nav__link:hover, .nav__link:active {
-    color: #37306b; }
+    color: #8c3ab7;
+    border-bottom: 2px solid #8c3ab7; }
+  .nav__form {
+    flex: 0 0 30%;
+    display: flex;
+    align-items: center; }
   .nav__input {
-    padding: 6px 1.4rem;
+    background: #fff;
+    font-size: 1.4rem;
+    color: #6d6d6d;
+    font-family: inherit;
+    border: 1px solid #d2d2d2;
     border-radius: 100px;
-    background-color: orchid; }
+    padding: 0.8rem 1.4rem;
+    width: 95%;
+    margin-right: -3.5rem;
+    transition: all 0.2s; }
+    .nav__input:focus {
+      outline: none;
+      width: 100%; }
+    .nav__input::placeholder {
+      color: #888; }
+  .nav__button {
+    border: none;
+    background-color: #fff;
+    font-size: 1.6rem;
+    color: #888;
+    cursor: pointer;
+    transition: all 0.2s; }
+    .nav__button:focus {
+      outline: none; }
+    .nav__button:active {
+      transform: translateY(2px); }
 
 .header {
   height: 100vh;
@@ -105,5 +145,5 @@ body {
   position: relative; }
   .header__text-box {
     position: absolute;
-    top: 50%;
+    top: 55%;
     transform: translate(0, -50%); }

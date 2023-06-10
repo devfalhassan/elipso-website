@@ -6,8 +6,8 @@
     display: inline-block;
     border-radius: 10rem;
     color: $color-white;
-    font-size: 1.4rem;
-    padding: 1rem 4rem;
+    font-size: $default-font-size;
+    padding: 1.4rem 2rem;
     cursor: pointer;
     transition: all 0.2s ease;
   }
@@ -21,7 +21,6 @@
   }
 
   &:hover {
-    transform: scale(1.05);
   }
 
   &:active {

@@ -9,6 +9,15 @@
       rel="stylesheet"
     />
 
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
     <link rel="stylesheet" href="/css/style.css" />
     <title>Elipso | Realize your Potentials</title>
   </head>
@@ -18,8 +27,8 @@
         <div class="row">
           <div class="nav__container">
             <div class="nav__logo">
-              <i>ICON</i>
-              <a href="#" class="nav__link">ELIPSO</a>
+              <ion-icon name="aperture-outline" class="nav__icon"></ion-icon>
+              <a href="#" class="nav__text">ELIPSO</a>
             </div>
 
             <ul class="nav__links">
@@ -49,11 +58,13 @@
               <input
                 type="text"
                 name=""
-                id=""
+                id="search"
                 class="nav__input"
                 placeholder="Search here"
               />
-              <button type="submit" class="nav__button">Se</button>
+              <button type="submit" class="nav__button">
+                <ion-icon name="search-outline"></ion-icon>
+              </button>
             </form>
           </div>
         </div>
