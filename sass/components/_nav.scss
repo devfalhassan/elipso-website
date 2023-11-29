@@ -1,25 +1,25 @@
 .nav {
-  padding: 1.8rem 0;
+  padding: 1.6rem 0;
   background-color: white;
   position: relative;
-  top: 3rem;
+  top: 3.2rem;
 
   &__logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 1.2rem;
+    column-gap: 0.8rem;
   }
 
   &__text {
     font-weight: 600;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     text-decoration: none;
     color: $color-secondary;
   }
 
   &__icon {
-    font-size: 3.5rem;
+    font-size: 3.6rem;
     display: flex;
     color: $color-secondary;
   }
@@ -41,7 +41,7 @@
     text-decoration: none;
     display: inline-block;
     color: $color-grey;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     border-bottom: 2px solid transparent;
     transition: all 0.2s;
     position: relative;
@@ -61,14 +61,14 @@
 
   &__input {
     background: #fff;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: $color-grey-dark;
     font-family: inherit;
     border: 1px solid $color-white-dark;
     border-radius: 100px;
-    padding: 0.8rem 1.4rem;
+    padding: 0.8rem 1.6rem;
     width: 95%;
-    margin-right: -3.5rem;
+    margin-right: -3.6rem;
     transition: all 0.2s;
 
     &:focus {

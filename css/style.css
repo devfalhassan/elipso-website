@@ -33,7 +33,7 @@ body {
   margin: 0 auto; }
 
 .heading-primary {
-  font-size: 5rem;
+  font-size: 5.2rem;
   color: #f2f2f2;
   line-height: 1;
   font-weight: 500; }
@@ -45,10 +45,10 @@ body {
   line-height: 1.8; }
 
 .u-mt-sm {
-  margin-top: 2.5rem; }
+  margin-top: 2.4rem; }
 
 .u-mb-sm {
-  margin-bottom: 2.5rem; }
+  margin-bottom: 2.4rem; }
 
 .btn, .btn:link, .btn:visited {
   text-decoration: none;
@@ -56,7 +56,7 @@ body {
   border-radius: 10rem;
   color: #f2f2f2;
   font-size: 1.6rem;
-  padding: 1.4rem 2rem;
+  padding: 1.6rem 2rem;
   cursor: pointer;
   transition: all 0.2s ease; }
 
@@ -67,23 +67,31 @@ body {
   outline: none;
   transform: scale(1.05) translateY(3px); }
 
+.grid {
+  display: grid;
+  column-gap: 2rem;
+  row-gap: 3rem; }
+  .grid--3-cols {
+    grid-template-columns: repeat(3, 1fr);
+    height: 20px; }
+
 .nav {
-  padding: 1.8rem 0;
+  padding: 1.6rem 0;
   background-color: white;
   position: relative;
-  top: 3rem; }
+  top: 3.2rem; }
   .nav__logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 1.2rem; }
+    column-gap: 0.8rem; }
   .nav__text {
     font-weight: 600;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     text-decoration: none;
     color: #8c3ab7; }
   .nav__icon {
-    font-size: 3.5rem;
+    font-size: 3.6rem;
     display: flex;
     color: #8c3ab7; }
   .nav__container {
@@ -98,7 +106,7 @@ body {
     text-decoration: none;
     display: inline-block;
     color: #888;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     border-bottom: 2px solid transparent;
     transition: all 0.2s;
     position: relative; }
@@ -111,14 +119,14 @@ body {
     align-items: center; }
   .nav__input {
     background: #fff;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: #6d6d6d;
     font-family: inherit;
     border: 1px solid #d2d2d2;
     border-radius: 100px;
-    padding: 0.8rem 1.4rem;
+    padding: 0.8rem 1.6rem;
     width: 95%;
-    margin-right: -3.5rem;
+    margin-right: -3.6rem;
     transition: all 0.2s; }
     .nav__input:focus {
       outline: none;
@@ -147,3 +155,6 @@ body {
     position: absolute;
     top: 55%;
     transform: translate(0, -50%); }
+
+.section-services {
+  padding: 6.4rem 0; }
