@@ -107,6 +107,7 @@ body {
     display: inline-block;
     color: #888;
     font-size: 1.6rem;
+    font-weight: 500;
     border-bottom: 2px solid transparent;
     transition: all 0.2s;
     position: relative; }
